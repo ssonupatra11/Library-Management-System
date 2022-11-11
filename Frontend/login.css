@@ -1,0 +1,55 @@
+body{
+    background: linear-gradient(to left,#e66465, #9198e5);
+}
+.main_div{
+    padding: 20px;
+    margin: 8% auto;
+    text-align: center;
+    width: 30%;
+}
+.inputDiv{
+    margin: 30px 30px 30px 40px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.324);
+    padding: 9px;
+    color: white;
+}
+h1{
+    color: white;
+}
+input{
+    color: white;
+    margin-left:7px ;
+    width: 80%;
+    border: none;
+    background-color: transparent;
+}
+input::placeholder{
+    color: white;
+}
+input:focus{
+    outline: none;
+}
+.remDiv{
+    margin: -10px 30px 0px 40px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+    font-size: 14px;
+    padding-right: 11px;
+    color: white;
+}
+input[type=checkbox]{
+    height: 11px;
+    width: auto;
+}
+div a{
+    float: right;
+    color: white;
+    text-decoration: none;
+}
+.logbtn{
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    border-radius: 20px;
+}
