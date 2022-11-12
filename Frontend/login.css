@@ -3,20 +3,30 @@ body{
 }
 .main_div{
     padding: 20px;
-    margin: 8% auto;
+    margin: 9% auto;
     text-align: center;
     width: 30%;
 }
+.mainSignUpDiv{
+    margin: 0% auto;
+    text-align: center;
+    width: 40%;
+}
 .inputDiv{
     margin: 30px 30px 30px 40px;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: left;
+    font-size: 13px;
     background-color: rgba(255, 255, 255, 0.324);
     padding: 9px;
     color: white;
 }
 h1{
     color: white;
+}
+.h1{
+    margin-top: 5%;
+    text-align: center;
 }
 input{
     color: white;
@@ -26,14 +36,16 @@ input{
     background-color: transparent;
 }
 input::placeholder{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
+    font-size: 13px;
 }
 input:focus{
     outline: none;
 }
 .remDiv{
     margin: -10px 30px 0px 40px;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: left;
     font-size: 14px;
     padding-right: 11px;
@@ -50,6 +62,24 @@ div a{
 }
 .logbtn{
     background-color: rgba(255, 255, 255, 0.6);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
     text-align: center;
     border-radius: 20px;
+}
+.logbtn1{
+    margin: 1% auto;
+    width: 30%;
+}
+
+.selectDesign{
+    color: white;
+    border: none;
+    background-color: transparent;
+}
+select:focus{
+    outline: none;
+}
+select option{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    background-color: #9198e5;
 }
